@@ -1,0 +1,140 @@
+.main {
+  width: 100%;
+  margin-left: 16%;
+}
+
+.content {
+  background-color: #059669;
+  width: 100%;
+  height: auto;
+}
+
+.content__content {
+  padding: 20px 55px;
+  padding-bottom: 120px;
+}
+.content__title {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.7px;
+  color: $color-white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.content__input-div {
+  position: relative;
+}
+
+.content__input {
+  width: 220px;
+  padding: 10px;
+  padding-left: 30px !important;
+  border-radius: 6px;
+  outline: none;
+  color: $color-link;
+  border: 1px solid transparent;
+  margin-right: 10px;
+}
+
+.content__icon {
+  position: absolute;
+  left: 8px;
+  color: $color-icon;
+}
+
+.content__img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.content__boxes {
+  padding-top: 60px !important;
+}
+.content__item {
+  list-style: none;
+  width: 23%;
+  height: auto;
+  border-radius: 6px;
+  background-color: $color-white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(224, 224, 224);
+  }
+}
+
+.content__inner-iconDiv {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  background-color: #ef444a;
+  border-radius: 50%;
+}
+.content__inner-iconDiv1 {
+  background-color: #f97316 !important;
+}
+
+.content__span-inner2 {
+  color: #ef444a !important;
+  margin-right: 10px !important;
+}
+.content__inner-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+  color: $color-white;
+}
+
+.content__icon-inner1 {
+  color: #ef444a !important;
+}
+
+.content__inner-p {
+  font-weight: 700;
+  font-size: 12px;
+  color: $color-spaceGray;
+}
+
+.content__span {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.content__icon-inner {
+  color: #059669;
+  margin-right: 5px;
+}
+.content__span-inner {
+  font-size: 13px;
+  color: $color-spaceGray;
+}
+.content__span-inner1 {
+  color: #059669;
+  font-weight: 400;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.content__inner-icon3 {
+  color: #f87316 !important;
+}
+
+.content__inner-icon4 {
+  background-color: #059669 !important;
+}
+.content__span-inner3 {
+  display: inline-block;
+  margin-right: 10px;
+  color: #f87316;
+}
+
+.content__inner-iconDiv5 {
+  background-color: #ec4899;
+}

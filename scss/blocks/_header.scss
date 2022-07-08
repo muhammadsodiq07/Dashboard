@@ -1,0 +1,98 @@
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 16%;
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: #fff;
+  border-right: 1px solid #000;
+}
+
+.header::-webkit-scrollbar {
+  width: 5px;
+}
+
+.header::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.header::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.header__div-main {
+  padding: 25px;
+}
+
+
+
+
+.header__link-vue {
+  font-weight: 700;
+  padding-top: 8px;
+  font-size: 14px;
+  letter-spacing: -0.5px;
+  display: inline-block;
+  color: $color-text;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header__hr {
+  position: relative;
+  top: 25px;
+  color: $color-text;
+}
+
+.header__text {
+  font-weight: 700;
+  padding-top: 8px;
+  font-size: 12px;
+  letter-spacing: -0.9px;
+  padding-top: 30px;
+  display: inline-block;
+  color: $color-spaceGray;
+  text-transform: uppercase;
+}
+
+
+.header__item {
+  list-style-type: none;
+  margin-bottom: 25px;
+}
+
+.header__link {
+  font-size: 12px;
+  font-weight: 700;
+  color: $color-link;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &:hover {
+    color: rgb(114, 114, 114);
+  }
+}
+
+.header__icon {
+  font-size: 16px;
+  margin-right: 10px;
+  color: $color-icon;
+}
+
+.header__text1 {
+  font-weight: 700;
+  padding-top: 8px;
+  font-size: 12px;
+  letter-spacing: -0.9px;
+  display: inline-block;
+  color: $color-spaceGray;
+  text-transform: uppercase;
+}
+
+
+.header__link1 {
+  text-transform: capitalize;
+}

@@ -1,0 +1,223 @@
+#settings {
+  position: relative;
+  left: 40px;
+  margin-top: -5.5rem;
+}
+
+.settings__main {
+  padding-left: 16px;
+}
+
+.settings__account1 {
+  -ms-flex-preferred-size: 58.333%;
+  flex-basis: 58.333%;
+  max-width: 58.333%;
+}
+
+.settings__account {
+  position: relative;
+  border-radius: 0.25rem;
+  margin-bottom: 1.5rem;
+  height: auto !important;
+  background-color: $color-white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.settings__title-div {
+  padding: 20px;
+}
+
+.settings__title {
+  margin: 0 !important;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+
+.settings__btn {
+  border: 1px solid transparent !important;
+  outline: none !important;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  padding: 3px 8px;
+  color: $color-white;
+  font-weight: 700;
+  background-color: #10b981;
+}
+
+.settings__form-div {
+  background-color: #F1F5F9;
+  padding-bottom: 30px !important;
+  width: 100% !important;
+}
+
+.settings__form-p {
+  font-weight: 700;
+  margin: 0 !important;
+  text-transform: uppercase;
+  letter-spacing: -0.4px !important;
+  color: $color-spaceGray;
+  padding-left: 50px !important;
+  padding-top: 10px !important;
+}
+
+.settings__form {
+  padding-top: 16px !important;
+  padding-left: 70px !important;
+  padding-right: 20px !important;
+}
+
+.form-label {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  font-size: 12px;
+  margin-bottom: 5px !important;
+  color: $color-link;
+}
+
+.settings__hr {
+  -ms-flex-preferred-size: 83.333%;
+  flex-basis: 83.333%;
+  max-width: 83.333%;
+  color: $color-spaceGray;
+  margin-left: 50px !important;
+  margin-top: 30px !important;
+}
+
+.form-control {
+  color: rgba(71, 85, 105, 1);
+  padding: 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  border-radius: 0.25rem;
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  width: 100%;
+}
+
+.settings__input {
+  padding-bottom: 50px !important;
+}
+
+.settings__form-p1 {
+  margin-top: -10px !important;
+  padding-left: 0px !important;
+  margin-left: -20px !important;
+}
+
+
+
+
+// settings__profile
+
+
+
+
+.settings__profile {
+  position: relative;
+  -ms-flex-preferred-size: 33.333%;
+  flex-basis: 33.333%;
+  max-width: 33.333%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.settings__profile-border {
+  position: relative;
+  left: -80px !important;
+  top: 50px;
+  border-radius: 0.25rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 30px !important;
+  height: auto !important;
+  background-color: $color-white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.settings__profile-img-div {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative;
+  top: -50px;
+}
+
+.settings__profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+.settings__profile-list {
+  margin-top: -30px !important;
+}
+
+.settings__profile-item {
+  color: $color-spaceGray;
+  list-style: none;
+}
+
+.settings__profile-span {
+  color: $color-link;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.settings__profile-name {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 60px !important;
+  margin-bottom: 20px !important;
+  color: $color-link;
+  text-transform: capitalize;
+}
+
+.settings__profile-los {
+  font-weight: 700;
+  margin: 0;
+  color: $color-spaceGray;
+}
+
+.settings__profile-location-icon {
+  font-size: 18px;
+  color: $color-spaceGray;
+  margin-right: 10px;
+}
+
+.settings__profile-span {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.settings__profile-hr {
+  margin-left: 20px;
+  -ms-flex-preferred-size: 80.333%;
+  flex-basis: 80.333%;
+  max-width: 80.333%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: $color-spaceGray;
+}
+
+.settings__span-more1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.settings__span-more {
+  text-align: center;
+  width: 50%;
+}
+
+.settings__profile-link {
+  display: block;
+  color: #10b981;
+  text-align: center;
+  text-decoration: none;
+}
