@@ -1,19 +1,16 @@
-let linkBtn = document.querySelectorAll(".linkBtn");
-let BtnLinks = document.querySelectorAll(".BtnLinks");
+let elSections = document.querySelectorAll(".sections");
+let elSectionBtns = document.querySelectorAll(".sectionBtn");
 
+elSections[0].style.display = "block";
+elSectionBtns[0].classList.add("nav-bar__btn--active");
 
-BtnLinks[0].style.display = "block";
-linkBtn[0].classList.add("active");
-
-
-linkBtn.forEach((item,i) => {
-  item.addEventListener("click", () => {
-    linkBtn.forEach((index,btn) => {
-      index.classList.remove("active");
-      BtnLinks[btn].style.display = "none";
+elSectionBtns.forEach((btn, index) => {
+  btn.addEventListener("click", () => {
+    elSectionBtns.forEach((item, i) => {
+      item.classList.remove("nav-bar__btn--active");
+      elSections[i].style.display = "none";
     })
-    item.classList.add("active");
-    BtnLinks.style.display = "block";
+    btn.classList.add("nav-bar__btn--active");
+    elSections[index].style.display = "block";
   })
-})
-
+});

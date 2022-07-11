@@ -43,7 +43,9 @@
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
-
+.dashboard__canvas1 {
+  height: 375px !important; 
+}
 .dashboard__entry {
   text-transform: uppercase;
   color: rgba(241, 245, 249, 1);

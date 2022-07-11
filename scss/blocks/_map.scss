@@ -1,0 +1,21 @@
+.map{
+  position: relative;
+  margin-top: -5.5rem;
+  z-index: 100;
+}
+
+.map__inner{
+  padding: 0 1rem;
+  padding: 0 55px;
+  margin-bottom: 1.5rem;
+  border-radius: 0.25rem;
+  height: 600px;
+
+  iframe{
+    border-radius: 0.25rem;
+  }
+}
+
+.map {
+  display: none;
+}

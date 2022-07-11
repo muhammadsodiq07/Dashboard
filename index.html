@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lesson</title>
+  <title>Vue notes</title>
   <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -30,27 +30,35 @@
           </p>
           <ul class="header__list p-0 m-0 pt-2">
             <li class="header__item">
-              <a class="header__link d-flex align-items-center linkBtn" href="#">
-                <i class="fas fa-tv header__icon"></i>
-                DASHBOARD
+              <a class="header__link d-flex align-items-center" href="#">
+                <button class="nav-bar__btn sectionBtn header__link">
+                  <i class="fa fa-tv me-2"></i>
+                  dashboard
+                </button>
               </a>
             </li>
             <li class="header__item">
-              <a class="header__link d-flex align-items-center linkBtn" href="#">
-                <i class="fas fa-tools header__icon"></i>
-                Settings
+              <a class="header__link d-flex align-items-center" href="#">
+                <button class="nav-bar__btn sectionBtn header__link">
+                  <i class="fa fa-tools me-2"></i>
+                  settings
+                </button>
               </a>
             </li>
             <li class="header__item">
-              <a class="header__link d-flex align-items-center linkBtn" href="#">
-                <i class="fas fa-table header__icon"></i>
-                Tables
+              <a class="header__link d-flex align-items-center" href="#">
+                <button class="nav-bar__btn sectionBtn header__link">
+                  <i class="fa fa-table me-2"></i>
+                  tables
+                </button>
               </a>
             </li>
             <li class="header__item">
-              <a class="header__link d-flex align-items-center linkBtn" href="#">
-                <i class="fas fa-map-marked header__icon"></i>
-                Maps
+              <a class="header__link d-flex align-items-center" href="#">
+                <button class="nav-bar__btn sectionBtn header__link">
+                  <i class="fa fa-map-marked me-2"></i>
+                  maps
+                </button
               </a>
             </li>
           </ul>
@@ -274,7 +282,7 @@
         </div>
       </div>
 
-      <section id="dashboard" class="dashboard BtnLinks">
+      <section id="dashboard" class="dashboard sections">
         <div class="container">
           <div class="dashboard__inner d-flex justify-content-between">
             <div class="dashboard__line">
@@ -302,7 +310,7 @@
                     Totale orders
                   </h2>
                 </div>
-                <div class="dashboard__canvas">
+                <div class="dashboard__canvas dashboard__canvas1">
                   <canvas id="myBar" width="100%" height="350"></canvas>
                 </div>
               </div>
@@ -471,7 +479,7 @@
 
 
 
-      <section id="settings" class="settings BtnLinks">
+      <section id="settings" class="settings sections">
         <div class="container">
           <div class="settings__main d-flex justify-content-between">
             <div class="settings__account1">
@@ -618,12 +626,41 @@
                 </a>
               </div>
             </div>
+
+          </div>
+          <div class="d-flex align-items-center justify-content-around pb-4">
+            <p class="dashborad__copy-p m-0 p-0">
+              Copyright © 2022 Creative Tim
+            </p>
+            <ul class="dashboard__list-copy p-0 m-0 pt-1 d-flex align-items-center">
+              <li class="dashboard__item-copy">
+                <a class="dashboard__link-copy" href="#">
+                  Creative Tim
+                </a>
+              </li>
+              <li class="dashboard__item-copy">
+                <a class="dashboard__link-copy" href="#">
+                  About Us
+                </a>
+              </li>
+              <li class="dashboard__item-copy">
+                <a class="dashboard__link-copy" href="#">
+                  Blog
+                </a>
+              </li>
+              <li class="dashboard__item-copy">
+                <a class="dashboard__link-copy" href="#">
+                  MIT License
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
 
 
-      <section id="card-table" class="card-table BtnLinks">
+
+      <section id="card-table" class="card-table sections">
         <div class="container">
           <div class="card-table__wrapper">
             <div class="card-table__inner">
@@ -653,7 +690,7 @@
                             Argon Design System
                           </span>
                         </th>
-                        <td>$2,500 USD</td>
+                        <td class="">$2,500 USD</td>
                         <td class="card-table__status">
                           <i class="fas fa-circle pending"></i>
                           pending
@@ -907,7 +944,7 @@
             <div class="card-table__inner">
               <div class="card-table__white card-table-main-green">
                 <div class="dashboard__page-header">
-                  <h3 class="dashboard__page-title card-table__title" style="color: #fff">
+                  <h3 class="dashboard__page-title card-table__title1" style="color: #fff">
                     Card tables
                   </h3>
                 </div>
@@ -915,12 +952,12 @@
                   <table class="table table-borderless">
                     <thead>
                       <tr>
-                        <th scope="col">Project</th>
-                        <th scope="col">budget</th>
-                        <th scope="col">status</th>
-                        <th scope="col">users</th>
-                        <th scope="col">completion</th>
-                        <th scope="col"></th>
+                        <th class="card__project" scope="col">Project</th>
+                        <th class="card__project" scope="col">budget</th>
+                        <th class="card__project" scope="col">status</th>
+                        <th class="card__project" scope="col">users</th>
+                        <th class="card__project" scope="col">completion</th>
+                        <th class="card__project" scope="col"></th>
                       </tr>
                     </thead>
                     <tbody>
@@ -1183,10 +1220,78 @@
               </div>
             </div>
           </div>
+          <div class="posionreal d-flex align-items-center justify-content-around pb-4">
+            <p class="dashborad__copy-p dashborad__copy-p1 m-0 p-0">
+              Copyright © 2022 Creative Tim
+            </p>
+            <ul class="dashboard__list-copy p-0 m-0 pt-1 d-flex align-items-center">
+              <li class="dashboard__item-copy">
+                <a class="dashboard__link-copy" href="#">
+                  Creative Tim
+                </a>
+              </li>
+              <li class="dashboard__item-copy">
+                <a class="dashboard__link-copy" href="#">
+                  About Us
+                </a>
+              </li>
+              <li class="dashboard__item-copy">
+                <a class="dashboard__link-copy" href="#">
+                  Blog
+                </a>
+              </li>
+              <li class="dashboard__item-copy">
+                <a class="dashboard__link-copy" href="#">
+                  MIT License
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
 
+
+
+      <section id="map" class="map sections">
+        <div class="container">
+          <div class="map__inner">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.617356072744!2d-73.98785308428668!3d40.74844454332168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2s!4v1657287012064!5m2!1sen!2s"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+
+          <div class="posionreal d-flex align-items-center justify-content-around pb-4">
+            <p class="dashborad__copy-p dashborad__copy-p1 m-0 p-0">
+              Copyright © 2022 Creative Tim
+            </p>
+            <ul class="dashboard__list-copy p-0 m-0 pt-1 d-flex align-items-center">
+              <li class="dashboard__item-copy">
+                <a class="dashboard__link-copy" href="#">
+                  Creative Tim
+                </a>
+              </li>
+              <li class="dashboard__item-copy">
+                <a class="dashboard__link-copy" href="#">
+                  About Us
+                </a>
+              </li>
+              <li class="dashboard__item-copy">
+                <a class="dashboard__link-copy" href="#">
+                  Blog
+                </a>
+              </li>
+              <li class="dashboard__item-copy">
+                <a class="dashboard__link-copy" href="#">
+                  MIT License
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
 
 
@@ -1349,7 +1454,6 @@
       configBar
     );
   </script>
-
   <script src="js/main.js"></script>
 </body>
 
