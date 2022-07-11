@@ -30,25 +30,25 @@
           </p>
           <ul class="header__list p-0 m-0 pt-2">
             <li class="header__item">
-              <a class="header__link d-flex align-items-center" href="#">
+              <a class="header__link d-flex align-items-center linkBtn" href="#">
                 <i class="fas fa-tv header__icon"></i>
                 DASHBOARD
               </a>
             </li>
             <li class="header__item">
-              <a class="header__link d-flex align-items-center" href="#">
+              <a class="header__link d-flex align-items-center linkBtn" href="#">
                 <i class="fas fa-tools header__icon"></i>
                 Settings
               </a>
             </li>
             <li class="header__item">
-              <a class="header__link d-flex align-items-center" href="#">
+              <a class="header__link d-flex align-items-center linkBtn" href="#">
                 <i class="fas fa-table header__icon"></i>
                 Tables
               </a>
             </li>
             <li class="header__item">
-              <a class="header__link d-flex align-items-center" href="#">
+              <a class="header__link d-flex align-items-center linkBtn" href="#">
                 <i class="fas fa-map-marked header__icon"></i>
                 Maps
               </a>
@@ -274,7 +274,7 @@
         </div>
       </div>
 
-      <section id="dashboard" class="dashboard">
+      <section id="dashboard" class="dashboard BtnLinks">
         <div class="container">
           <div class="dashboard__inner d-flex justify-content-between">
             <div class="dashboard__line">
@@ -471,7 +471,7 @@
 
 
 
-      <section id="settings" class="settings">
+      <section id="settings" class="settings BtnLinks">
         <div class="container">
           <div class="settings__main d-flex justify-content-between">
             <div class="settings__account1">
@@ -559,10 +559,10 @@
 
             <div class="settings__profile col-4">
               <div class="settings__profile-border">
-                  <div class="settings__profile-img-div">
-                    <img class="settings__profile-img"
-                  src="https://demos.creative-tim.com/vue-notus/img/team-2-800x800.3e08ef14.jpg" alt="">
-                  </div>
+                <div class="settings__profile-img-div">
+                  <img class="settings__profile-img"
+                    src="https://demos.creative-tim.com/vue-notus/img/team-2-800x800.3e08ef14.jpg" alt="">
+                </div>
                 <ul class="settings__profile-list m-0 p-0 d-flex align-items-center justify-content-center">
                   <li class="settings__profile-item d-flex flex-column align-items-center me-5">
                     <span class="settings__profile-span">
@@ -589,38 +589,615 @@
                 </h2>
                 <div class="settings__profile-location d-flex align-items-center justify-content-center">
                   <i class="fas fa-map-marker-alt settings__profile-location-icon"></i>
-                    <p class="settings__profile-los">
-                      LOS ANGELES, CALIFORNIA
-                    </p>
+                  <p class="settings__profile-los">
+                    LOS ANGELES, CALIFORNIA
+                  </p>
                 </div>
                 <div class="settings__profile-location d-flex align-items-center justify-content-center pt-5">
                   <i class="fas fa-briefcase settings__profile-location-icon"></i>
-                    <span class="settings__profile-span">
-                      Solution Manager - Creative Tim Officer
-                    </span>
+                  <span class="settings__profile-span">
+                    Solution Manager - Creative Tim Officer
+                  </span>
                 </div>
                 <div class="settings__profile-location d-flex align-items-center justify-content-center pt-2">
                   <i class="fas fa-university settings__profile-location-icon"></i>
-                    <span class="settings__profile-span">
-                      University of Computer Science
-                    </span>
+                  <span class="settings__profile-span">
+                    University of Computer Science
+                  </span>
                 </div>
                 <hr class="settings__profile-hr mt-5">
                 <div class="settings__span-more1 pt-3">
                   <p class="settings__span-more">
-                    An artist of considerable range, Jenna the name taken by Melbourne-raised, Brooklyn-based Nick Murphy writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.
+                    An artist of considerable range, Jenna the name taken by Melbourne-raised, Brooklyn-based Nick
+                    Murphy writes, performs and records all of his own music, giving it a warm, intimate feel with a
+                    solid groove structure. An artist of considerable range.
                   </p>
                 </div>
                 <a class="settings__profile-link" href="#">
                   Show more
                 </a>
+              </div>
             </div>
           </div>
-
         </div>
-  </div>
-  </section>
-  </section>
+      </section>
+
+
+      <section id="card-table" class="card-table BtnLinks">
+        <div class="container">
+          <div class="card-table__wrapper">
+            <div class="card-table__inner">
+              <div class="card-table__white">
+                <div class="dashboard__page-header">
+                  <h3 class="dashboard__page-title card-table__title">
+                    Card tables
+                  </h3>
+                </div>
+                <div class="dashboard__table-box">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Project</th>
+                        <th scope="col">budget</th>
+                        <th scope="col">status</th>
+                        <th scope="col">users</th>
+                        <th scope="col">completion</th>
+                        <th scope="col"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="card-table__th-img-box d-flex align-items-center">
+                          <img src="https://demos.creative-tim.com/vue-notus/img/bootstrap.bd712487.jpg" alt="project">
+                          <span class="card-table__table-title">
+                            Argon Design System
+                          </span>
+                        </th>
+                        <td>$2,500 USD</td>
+                        <td class="card-table__status">
+                          <i class="fas fa-circle pending"></i>
+                          pending
+                        </td>
+                        <td>
+                          <ul class="card-table__table-list d-flex align-items-center">
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-1-800x800.fa5a7ac2.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-2-800x800.3e08ef14.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-3-800x800.19201574.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-4-470x470.4ef82ef4.png"
+                                alt="user">
+                            </li>
+                          </ul>
+                        </td>
+                        <td>
+                          <div class="dashboard__social-range d-flex align-items-center">
+                            <span class="dashboard__social-percent">
+                              60%
+                            </span>
+                            <div class="dashboard__line-up social-light-red">
+                              <div class="dashboard__line-inner social-dark-red table-red"></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class="table__btn">
+                          <div class="d-flex justify-content-end">
+                            <button class="table__real-btn">
+                              <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="card-table__th-img-box d-flex align-items-center">
+                          <img src="https://demos.creative-tim.com/vue-notus/img/angular.b5045666.jpg" alt="project">
+                          <span class="card-table__table-title">
+                            Angular Now UI Kit PRO
+                          </span>
+                        </th>
+                        <td>$1,800 USD</td>
+                        <td class="card-table__status">
+                          <i class="fas fa-circle pending completed"></i>
+                          completed
+                        </td>
+                        <td>
+                          <ul class="card-table__table-list d-flex align-items-center">
+
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-1-800x800.fa5a7ac2.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-2-800x800.3e08ef14.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-3-800x800.19201574.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-4-470x470.4ef82ef4.png"
+                                alt="user">
+                            </li>
+                          </ul>
+                        </td>
+                        <td>
+                          <div class="dashboard__social-range d-flex align-items-center">
+                            <span class="dashboard__social-percent">
+                              100%
+                            </span>
+                            <div class="dashboard__line-up social-light-green">
+                              <div class="dashboard__line-inner social-dark-green table-green"></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class="table__btn">
+                          <div class="d-flex justify-content-end">
+                            <button class="table__real-btn">
+                              <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="card-table__th-img-box d-flex align-items-center">
+                          <img src="https://demos.creative-tim.com/vue-notus/img/sketch.a6af780a.jpg" alt="project">
+                          <span class="card-table__table-title">
+                            Black Dashboard Sketch
+                          </span>
+                        </th>
+                        <td>$3,150 USD</td>
+                        <td class="card-table__status">
+                          <i class="fas fa-circle delayed"></i>
+                          delayed
+                        </td>
+                        <td>
+                          <ul class="card-table__table-list d-flex align-items-center">
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-1-800x800.fa5a7ac2.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-2-800x800.3e08ef14.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-3-800x800.19201574.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-4-470x470.4ef82ef4.png"
+                                alt="user">
+                            </li>
+                          </ul>
+                        </td>
+                        <td>
+                          <div class="dashboard__social-range d-flex align-items-center">
+                            <span class="dashboard__social-percent">
+                              73%
+                            </span>
+                            <div class="dashboard__line-up social-light-red">
+                              <div class="dashboard__line-inner social-dark-red table-delayed"></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class="table__btn">
+                          <div class="d-flex justify-content-end">
+                            <button class="table__real-btn">
+                              <i class="fas fa-ellipsis-v"></i>
+
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="card-table__th-img-box d-flex align-items-center">
+                          <img src="https://demos.creative-tim.com/vue-notus/img/react.0e8c9066.jpg" alt="project">
+                          <span class="card-table__table-title">
+                            React Material Dashboard
+                          </span>
+                        </th>
+                        <td>$4,400 USD</td>
+                        <td class="card-table__status">
+                          <i class="fas fa-circle schedule"></i>
+                          on schedule
+                        </td>
+                        <td>
+                          <ul class="card-table__table-list d-flex align-items-center">
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-1-800x800.fa5a7ac2.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-2-800x800.3e08ef14.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-3-800x800.19201574.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-4-470x470.4ef82ef4.png"
+                                alt="user">
+                            </li>
+                          </ul>
+                        </td>
+                        <td>
+                          <div class="dashboard__social-range d-flex align-items-center">
+                            <span class="dashboard__social-percent">
+                              90%
+                            </span>
+                            <div class="dashboard__line-up social-light-salad">
+                              <div class="dashboard__line-inner social-dark-salad table-salad"></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class="table__btn">
+                          <div class="d-flex justify-content-end">
+                            <button class="table__real-btn">
+                              <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="card-table__th-img-box d-flex align-items-center">
+                          <img src="https://demos.creative-tim.com/vue-notus/img/react.0e8c9066.jpg" alt="project">
+                          <span class="card-table__table-title">
+                            React Material Dashboard
+                          </span>
+                        </th>
+                        <td>$2,200 USD</td>
+                        <td class="card-table__status">
+                          <i class="fas fa-circle completed"></i>
+                          completed
+                        </td>
+                        <td>
+                          <ul class="card-table__table-list d-flex align-items-center">
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-1-800x800.fa5a7ac2.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-2-800x800.3e08ef14.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-3-800x800.19201574.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-4-470x470.4ef82ef4.png"
+                                alt="user">
+                            </li>
+                          </ul>
+                        </td>
+                        <td>
+                          <div class="dashboard__social-range d-flex align-items-center">
+                            <span class="dashboard__social-percent">
+                              100%
+                            </span>
+                            <div class="dashboard__line-up social-light-green">
+                              <div class="dashboard__line-inner social-dark-green table-green"></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class="table__btn">
+                          <div class="d-flex justify-content-end">
+                            <button class="table__real-btn">
+                              <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="card-table__inner">
+              <div class="card-table__white card-table-main-green">
+                <div class="dashboard__page-header">
+                  <h3 class="dashboard__page-title card-table__title" style="color: #fff">
+                    Card tables
+                  </h3>
+                </div>
+                <div class="dashboard__table-box">
+                  <table class="table table-borderless">
+                    <thead>
+                      <tr>
+                        <th scope="col">Project</th>
+                        <th scope="col">budget</th>
+                        <th scope="col">status</th>
+                        <th scope="col">users</th>
+                        <th scope="col">completion</th>
+                        <th scope="col"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="card-table__th-img-box d-flex align-items-center">
+                          <img src="https://demos.creative-tim.com/vue-notus/img/bootstrap.bd712487.jpg" alt="project">
+                          <span class="card-table__table-title table-color-white">
+                            Argon Design System
+                          </span>
+                        </th>
+                        <td class="table-color-white">$2,500 USD</td>
+                        <td class="card-table__status table-color-white">
+                          <i class="fas fa-circle pending"></i>
+                          pending
+                        </td>
+                        <td>
+                          <ul class="card-table__table-list d-flex align-items-center">
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-1-800x800.fa5a7ac2.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-2-800x800.3e08ef14.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-3-800x800.19201574.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-4-470x470.4ef82ef4.png"
+                                alt="user">
+                            </li>
+                          </ul>
+                        </td>
+                        <td>
+                          <div class="dashboard__social-range d-flex align-items-center">
+                            <span class="dashboard__social-percent table-color-white">
+                              60%
+                            </span>
+                            <div class="dashboard__line-up social-light-red">
+                              <div class="dashboard__line-inner social-dark-red table-red"></div>
+                            </div>
+
+                          </div>
+                        </td>
+                        <td class="table__btn">
+                          <div class="d-flex justify-content-end">
+                            <button class="table__real-btn">
+                              <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="card-table__th-img-box d-flex align-items-center">
+                          <img src="https://demos.creative-tim.com/vue-notus/img/angular.b5045666.jpg" alt="project">
+                          <span class="card-table__table-title table-color-white">
+                            Angular Now UI Kit PRO
+                          </span>
+                        </th>
+                        <td class="table-color-white">$1,800 USD</td>
+                        <td class="card-table__status table-color-white">
+                          <i class="fas fa-circle pending completed"></i>
+                          completed
+                        </td>
+                        <td>
+                          <ul class="card-table__table-list d-flex align-items-center">
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-1-800x800.fa5a7ac2.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-2-800x800.3e08ef14.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-3-800x800.19201574.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-4-470x470.4ef82ef4.png"
+                                alt="user">
+                            </li>
+                          </ul>
+                        </td>
+                        <td>
+                          <div class="dashboard__social-range d-flex align-items-center">
+                            <span class="dashboard__social-percent table-color-white">
+                              100%
+                            </span>
+                            <div class="dashboard__line-up social-light-green">
+                              <div class="dashboard__line-inner social-dark-green table-green"></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class="table__btn">
+                          <div class="d-flex justify-content-end">
+                            <button class="table__real-btn">
+                              <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="card-table__th-img-box d-flex align-items-center">
+                          <img src="https://demos.creative-tim.com/vue-notus/img/sketch.a6af780a.jpg" alt="project">
+                          <span class="card-table__table-title table-color-white">
+                            Black Dashboard Sketch
+                          </span>
+                        </th>
+                        <td class="table-color-white">$3,150 USD</td>
+                        <td class="card-table__status table-color-white">
+                          <i class="fas fa-circle delayed"></i>
+                          delayed
+                        </td>
+                        <td>
+                          <ul class="card-table__table-list d-flex align-items-center">
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-1-800x800.fa5a7ac2.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-2-800x800.3e08ef14.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-3-800x800.19201574.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-4-470x470.4ef82ef4.png"
+                                alt="user">
+                            </li>
+                          </ul>
+                        </td>
+                        <td>
+                          <div class="dashboard__social-range d-flex align-items-center">
+                            <span class="dashboard__social-percent table-color-white">
+                              73%
+                            </span>
+                            <div class="dashboard__line-up social-light-red">
+                              <div class="dashboard__line-inner social-dark-red table-delayed"></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class="table__btn">
+                          <div class="d-flex justify-content-end">
+                            <button class="table__real-btn">
+                              <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="card-table__th-img-box d-flex align-items-center">
+                          <img src="https://demos.creative-tim.com/vue-notus/img/react.0e8c9066.jpg" alt="project">
+                          <span class="card-table__table-title table-color-white">
+                            React Material Dashboard
+                          </span>
+                        </th>
+                        <td class="table-color-white">$4,400 USD</td>
+                        <td class="card-table__status table-color-white">
+                          <i class="fas fa-circle schedule"></i>
+                          on schedule
+                        </td>
+                        <td>
+                          <ul class="card-table__table-list d-flex align-items-center">
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-1-800x800.fa5a7ac2.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-2-800x800.3e08ef14.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-3-800x800.19201574.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-4-470x470.4ef82ef4.png"
+                                alt="user">
+                            </li>
+                          </ul>
+                        </td>
+                        <td>
+                          <div class="dashboard__social-range d-flex align-items-center">
+                            <span class="dashboard__social-percent table-color-white">
+                              90%
+                            </span>
+                            <div class="dashboard__line-up social-light-salad">
+                              <div class="dashboard__line-inner social-dark-salad table-salad"></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class="table__btn">
+                          <div class="d-flex justify-content-end">
+                            <button class="table__real-btn">
+                              <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+
+                        <th scope="row" class="card-table__th-img-box d-flex align-items-center">
+                          <img src="https://demos.creative-tim.com/vue-notus/img/react.0e8c9066.jpg" alt="project">
+                          <span class="card-table__table-title table-color-white">
+                            React Material Dashboard
+                          </span>
+                        </th>
+                        <td class="table-color-white">$2,200 USD</td>
+                        <td class="card-table__status table-color-white">
+                          <i class="fas fa-circle completed"></i>
+                          completed
+                        </td>
+                        <td>
+                          <ul class="card-table__table-list d-flex align-items-center">
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-1-800x800.fa5a7ac2.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-2-800x800.3e08ef14.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-3-800x800.19201574.jpg"
+                                alt="user">
+                            </li>
+                            <li class="card-table__table-item">
+                              <img src="https://demos.creative-tim.com/vue-notus/img/team-4-470x470.4ef82ef4.png"
+                                alt="user">
+                            </li>
+                          </ul>
+                        </td>
+                        <td>
+                          <div class="dashboard__social-range d-flex align-items-center">
+                            <span class="dashboard__social-percent table-color-white">
+                              100%
+                            </span>
+                            <div class="dashboard__line-up social-light-green">
+                              <div class="dashboard__line-inner social-dark-green table-green"></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class="table__btn">
+                          <div class="d-flex justify-content-end">
+                            <button class="table__real-btn">
+                              <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
   </div>
 
 
@@ -772,6 +1349,7 @@
       configBar
     );
   </script>
+
   <script src="js/main.js"></script>
 </body>
 
