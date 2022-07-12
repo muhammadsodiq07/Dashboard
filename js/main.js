@@ -1,5 +1,5 @@
 let elSections = document.querySelectorAll(".sections");
-let elSectionBtns = document.querySelectorAll(".sectionBtn");
+let elSectionBtns = document.querySelectorAll(".linkBtn");
 
 elSections[0].style.display = "block";
 elSectionBtns[0].classList.add("nav-bar__btn--active");
